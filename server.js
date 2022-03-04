@@ -11,6 +11,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
 app.use(express.json());
+app.use(express.static('public'));
 
 function createNote(body, notesArray) {
     const note = body;
@@ -53,6 +54,19 @@ app.post('/api/notes', (req, res) => {
     const note = createNote(req.body, notes);
     res.json(note);
     }
+});
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
+});
+
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/notes.html'));
+});
+
+// handle wildcard routes
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
 app.listen(PORT, () => {

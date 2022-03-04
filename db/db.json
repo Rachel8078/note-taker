@@ -6,29 +6,14 @@
       "text": "Test"
     },
     {
-      "id": "1",
-      "title": "First",
-      "text": "First"
+      "title": "New Note",
+      "text": "This is a note to test posting :)\n",
+      "id": "1"
     },
     {
-      "title": "Second title",
-      "test": "Second text",
+      "title": "Hi",
+      "text": "Hello",
       "id": "2"
-    },
-    {
-      "title": "Second title",
-      "test": "Second text",
-      "id": "3"
-    },
-    {
-      "title": "Second title",
-      "text": "Second text",
-      "id": "4"
-    },
-    {
-      "title": "Second title",
-      "text": "Success",
-      "id": "5"
     }
   ]
 }
