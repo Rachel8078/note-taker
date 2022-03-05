@@ -15,6 +15,9 @@ This app allows a user to write and save notes.
 ## GitHub Link
 https://github.com/Rachel8078/note-taker
 
+## Deployed Application Link
+https://polar-plateau-08555.herokuapp.com/
+
 ## Screenshot
 ![](./assets/images/note-taker.png)
 ![](./assets/images/note-taker2.png)

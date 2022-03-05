@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
+// create notes
 function createNote(body, notesArray) {
     const note = body;
     notesArray.push(note);
@@ -25,6 +26,7 @@ function createNote(body, notesArray) {
     return note;
 }
 
+// validate notes
 function validateNote(note) {
     if(!note.title || typeof note.title !== 'string') {
         return false;
