@@ -1,24 +1,14 @@
 {
   "notes": [
     {
-      "id": "0",
-      "title": "Test",
-      "text": "Test"
+      "title": "132",
+      "text": "321",
+      "id": "0"
     },
     {
-      "title": "New Note",
-      "text": "This is a note to test posting :)\n",
+      "title": "hi",
+      "text": "43513",
       "id": "1"
-    },
-    {
-      "title": "Hi",
-      "text": "Hello",
-      "id": "2"
-    },
-    {
-      "title": "Finish note taker app",
-      "text": "Assignment due on Sunday!",
-      "id": "3"
     }
   ]
 }
